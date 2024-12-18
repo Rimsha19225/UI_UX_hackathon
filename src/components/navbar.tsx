@@ -13,16 +13,16 @@ const NavBar = () => {
   return (
     <div className="w-full bg-[#ffffff] fixed top-9 z-50 pb-[1.5rem] border-b-[1px]">
       <div className="w-[90%] h-[5rem] 2xl:w-[1500px] mx-auto flex justify-around 2xl-[w-1500px]">
-          <div className='font-bold text-[32px] w-20 mt-[2.2rem] ml-10 tracking-tighter cursor-pointer'>SHOP.CO</div>
-          <div className='flex gap-5 mt-[3rem]'>
+          <div className='integral font-bold text-[32px] w-20 mt-[2.2rem] ml-10  cursor-pointer'>SHOP.CO</div>
+          <div className='satoshi flex gap-5 mt-[3rem]'>
             <div className="link flex gap-1 hover:font-semibold">
               <Link href={"#"} 
-              className="dropdown-button border-none cursor-pointer border-r-[5px] ml-20">Shop </Link>
+              className="satoshi font-semibold dropdown-button border-none cursor-pointer border-r-[5px] ml-20">Shop </Link>
               <div className='mt-2'> <Image src={dropdown} alt="drop" className=""/> </div>
             </div >
-            <div><Link href={"#"} className='link font-semibold'>On Sale</Link></div>
-            <div><Link href={"/new_Arival"} className='link font-semibold'>New Arrivals</Link></div>
-            <div><Link href={"#"} className='link font-semibold'>Brands</Link></div>
+            <div><Link href={"#"} className='satoshi link font-semibold'>On Sale</Link></div>
+            <div><Link href={"/new_Arival"} className='satoshi link font-semibold'>New Arrivals</Link></div>
+            <div><Link href={"#"} className='satoshi link font-semibold'>Brands</Link></div>
           </div>
           <div className="relative ml-[20px] w-[35rem] mt-[2rem] pt-[0.3rem] rounded-full">
                 <input type="text" placeholder="Search for products..." className="absolute p-[0.75rem] pl-12 w-full border-none text-[15px] rounded-full bg-[#F5F5F5] text-black" />

@@ -25,12 +25,12 @@ const Cart = () => {
                     <Image className="mt-[3px]" src={arrowToRight} alt="arrowToRight"></Image>
                 </div>
             </div>
-            <h1 className="text-[30px] font-bold tracking-[-0.01em] mb-4">YOUR CART</h1>
+            <h1 className="integral text-[30px] font-bold mb-4">YOUR CART</h1>
             <div className="flex gap-6">
                 <div className="flex flex-col border rounded-2xl p-2">
                     <div className="flex mb-3 p-2 pl-2 pr-2 hover:bg-[#f0eeee] rounded-2xl">
                         <Image src={cart1} alt="cart_1" className="w-[6rem] h-[6rem] rounded-[0.5rem]"/>
-                        <div className="ml-3 w-[12rem]">
+                        <div className="satoshi ml-3 w-[12rem]">
                             <h2 className="text-[17px] font-semibold">Gradient Graphic T-shirt</h2>
                             <p className="text-[12px] text-[#303030]"><span className="font-semibold">Size: </span>Large</p>
                             <p className="text-[12px] mb-[0.25rem] text-[#303030]"><span className="font-semibold">Color: </span>White</p>
@@ -44,7 +44,7 @@ const Cart = () => {
                     <hr />
                     <div className="flex mt-3 mb-3 p-2 pl-2 pr-2 hover:bg-[#f0eeee] rounded-2xl">
                         <Image src={cart2} alt="cart_1" className="w-[6rem] h-[6rem] rounded-[0.5rem]"/>
-                        <div className="ml-3 w-[12rem]">
+                        <div className="satoshi ml-3 w-[12rem]">
                             <h2 className="text-[17px] font-semibold">Checkered Shirt</h2>
                             <p className="text-[12px] text-[#303030]"><span className="font-semibold">Size: </span>Medium</p>
                             <p className="text-[12px] text-[#303030]"><span className="font-semibold">Color: </span>Red</p>
@@ -58,7 +58,7 @@ const Cart = () => {
                     <hr />
                     <div className="flex mt-3 p-2 pl-2 pr-2 hover:bg-[#f0eeee] rounded-2xl">
                         <Image src={cart3} alt="cart_1" className="w-[6rem] h-[6rem] rounded-[0.5rem]"/>
-                        <div className="ml-3 w-[12rem]">
+                        <div className="satoshi ml-3 w-[12rem]">
                             <h2 className="text-[17px] font-semibold">Skiny Fit Jeans</h2>
                             <p className="text-[12px] text-[#303030]"><span className="font-semibold">Size: </span>Large</p>
                             <p className="text-[12px] text-[#303030]"><span className="font-semibold">Color: </span>Blue</p>
@@ -70,7 +70,7 @@ const Cart = () => {
                         </div>
                     </div>
                 </div>
-                <div className="flex flex-col border rounded-2xl p-2 w-[37rem] h-[24rem]">
+                <div className="satoshi flex flex-col border rounded-2xl p-2 w-[37rem] h-[24rem]">
                     <h2 className="text-[22px] font-semibold mb-4">Order Summary</h2>
                     <div className="flex mb-[0.4rem] p-1 pl-2 pr-2 hover:bg-[#f0eeee] rounded-xl">
                         <h2 className="text-[#484747]">Subtotal</h2>

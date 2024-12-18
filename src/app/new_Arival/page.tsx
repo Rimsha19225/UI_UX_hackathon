@@ -31,7 +31,7 @@ import Link from "next/link"
 const New_Arival = () => {
   return (
     <div className='mt-[88px]'>
-      <h1 className='text-center mt-[4.5rem] mb-8 text-[45px] font-bold tracking-[-0.1em]'>NEW ARRIVALS</h1>
+      <h1 className='integral text-center mt-[4.5rem] mb-8 text-[40px] font-bold'>NEW ARRIVALS</h1>
       <div className='flex gap-5 justify-center'>
         <div className="card">
             <Image src={card1} alt="cross" />
@@ -83,7 +83,7 @@ const New_Arival = () => {
       </div>
 
       <div className="border ">
-      <h1 className='text-center mt-12 mb-8 text-[45px] font-bold tracking-[-0.1em]'>TOP SELLING</h1>
+      <h1 className='integral text-center mt-12 mb-8 text-[40px] font-bold'>TOP SELLING</h1>
       <div className='flex gap-5 justify-center'>
         <div className="card">
             <Image src={Piccc1} alt="piccc1" />
@@ -128,12 +128,12 @@ const New_Arival = () => {
             </div>
         </div>
       </div>
-      <div className="flex justify-center mb-[80px] mt-[50px]">
+      <div className="flex justify-center mb-[50px] mt-[50px]">
         <button className='card w-40 border-[2px] hover:bg-[#ececec] rounded-full p-2 hover:w-44'>View All</button>
       </div>
     </div>
-    <div className="w-[1239px] m-auto h-[840px] rounded-[40px] bg-[#F0F0F0] mt-[12rem]">
-        <h1 className="text-[#000000] text-center font-[700] text-[48px] mb-[50px] pt-[50px] leading-[57.6px]">BROWSE BY DRESS STYLE</h1>
+    <div className="w-[1239px] m-auto h-[840px] rounded-[40px] bg-[#F0F0F0] mt-[7rem]">
+        <h1 className="integral text-[#000000] text-center font-[700] text-[45px] mb-[50px] pt-[50px] leading-[57.6px]">BROWSE BY DRESS STYLE</h1>
         <div className="w-[90%] m-auto">
           <div className="flex mb-[-30px] gap-6">
             <div className="card cursor-pointer">
@@ -160,7 +160,7 @@ const New_Arival = () => {
     
     <div className="mb-[100px]">
       <div className="w-[90%] mt-[50px] m-auto flex justify-between items-center">
-        <h1 className="text-[#000000] text-[48px] leading-[57.6px] font-[700]">OUR HAPPY CUSTOMERS</h1>
+        <h1 className="integral text-[#000000] text-[45px] leading-[57.6px] font-bold">OUR HAPPY CUSTOMERS</h1>
         <div className="flex gap-4">
           <Image className="cursor-pointer" src={Left} alt="left"></Image>
           <Image className="cursor-pointer" src={Right} alt="right"></Image>
