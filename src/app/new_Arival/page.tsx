@@ -30,12 +30,12 @@ import Link from "next/link"
 
 const New_Arival = () => {
   return (
-    <div className='mt-[88px]'>
+    <div className='mt-[60px] sm:mt-[88px] bg-white'>
       <h1 className='integral text-center mt-[4.5rem] mb-8 text-[40px] font-bold'>NEW ARRIVALS</h1>
       <div className='flex gap-5 justify-center'>
         <div className="card">
             <Image src={card1} alt="cross" />
-            <h3 className="text-[20px] leading-[27px] mt-[10px] ml-[5px] mb-[5px] text-[#000000] font-[700]">T-shirt With Tape Details</h3>
+            <h3 className="text-[18px] sm:text-[20px] leading-[27px] mt-[10px] ml-[5px] mb-[5px] text-[#000000] font-[700]">T-shirt With Tape Details</h3>
             <div className="flex gap-3 ml-[5px] mb-[5px]">
               <Image src={m1} alt="m1"></Image>
               <p className="text-[#000000] text-[14px] leading-[18.9px] font-[400]">4.5<span className="text-[14px] text-[#BFBFBF] font-[400]">/5</span></p>
@@ -55,7 +55,7 @@ const New_Arival = () => {
                 <h3 className="bg-[#FFEBEB] w-[58px] h-[28px] flex items-center justify-center rounded-[62px] text-[12px] leading-[16.2px] text-[#FF3333]">-20%</h3>
             </div>
         </div>
-        <div className="card">
+        <div className="card hidden sm:inline-block">
             <Image src={card3} alt="cross" />
             <h3 className="text-[20px] leading-[27px] mt-[10px] ml-[5px] mb-[5px] text-[#000000] font-[700]">Checkered Shirt</h3>
             <div className="flex gap-3 ml-[5px] mb-[5px]">
@@ -64,7 +64,7 @@ const New_Arival = () => {
             </div>
             <h4 className="text-[24px] ml-[5px] leading-[32.4px] font-[700]">$180</h4>
         </div>
-        <div className="card">
+        <div className="card hidden sm:inline-block">
             <Image src={card4} alt="cross"/>
             <h3 className="text-[20px] leading-[27px] mt-[10px] ml-[5px] mb-[5px] text-[#000000] font-[700]">Sleeve Striped T-shirt</h3>
             <div className="flex gap-3 ml-[5px] mb-[5px]">
@@ -79,10 +79,10 @@ const New_Arival = () => {
         </div>
       </div>
       <div className="flex justify-center mt-[50px]">
-        <Link href={"/productdetail"}><button className='card w-40 mb-[50px] border-[2px] hover:bg-[#ececec] rounded-full p-2 hover:w-44'>View All</button></Link>
+        <Link href={"/productdetail"}><button className='card w-[27.5rem] sm:w-40 mb-[50px] border-[2px] hover:bg-[#ececec] rounded-full p-2 hover:w-44'>View All</button></Link>
       </div>
 
-      <div className="border ">
+      <div className="">
       <h1 className='integral text-center mt-12 mb-8 text-[40px] font-bold'>TOP SELLING</h1>
       <div className='flex gap-5 justify-center'>
         <div className="card">
@@ -107,7 +107,7 @@ const New_Arival = () => {
             </div>
             <h2 className="text-[24px] leading-[32.4px] font-[700]">$145</h2>
         </div>
-        <div className="card">
+        <div className="card hidden sm:inline-block">
             <Image src={Piccc3} alt="piccc3" />
             <h3 className="text-[20px] leading-[27px] mt-[10px] ml-[5px] mb-[5px] text-[#000000] font-[700]">Loose Fit Bermuda Shorts</h3>
             <div className="flex gap-3 ml-[5px] mb-[5px]">
@@ -116,7 +116,7 @@ const New_Arival = () => {
             </div>
             <h4 className="text-[24px] ml-[5px] leading-[32.4px] font-[700]">$80</h4>
         </div>
-        <div className="card">
+        <div className="card hidden sm:inline-block">
             <Image src={Piccc4} alt="piccc4"/>
             <h3 className="text-[20px] leading-[27px] mt-[10px] ml-[5px] mb-[5px] text-[#000000] font-[700]">Faded Skinny Jeans</h3>
             <div className="flex gap-3 ml-[5px] mb-[5px]">
@@ -129,30 +129,30 @@ const New_Arival = () => {
         </div>
       </div>
       <div className="flex justify-center mb-[50px] mt-[50px]">
-        <button className='card w-40 border-[2px] hover:bg-[#ececec] rounded-full p-2 hover:w-44'>View All</button>
+        <button className='card w-[27.5rem] sm:w-40 border-[2px] hover:bg-[#ececec] rounded-full p-2 hover:w-44'>View All</button>
       </div>
     </div>
-    <div className="w-[1239px] m-auto h-[840px] rounded-[40px] bg-[#F0F0F0] mt-[7rem]">
+    <div className="w-auto sm:w-[1239px] m-4 sm:m-auto h-auto rounded-[40px] bg-[#F0F0F0] mt-[7rem]">
         <h1 className="integral text-[#000000] text-center font-[700] text-[45px] mb-[50px] pt-[50px] leading-[57.6px]">BROWSE BY DRESS STYLE</h1>
         <div className="w-[90%] m-auto">
-          <div className="flex mb-[-30px] gap-6">
+          <div className="flex flex-col sm:flex-row mb-[-30px] gap-0 sm:gap-6">
             <div className="card cursor-pointer">
-              <Image className="rounded-[20px]" src={image1} alt="image1"></Image>
-              <h3 className="text-[#000000] text-[36px] font-[700] relative bottom-[260px] left-[30px]">Casual</h3>
+              <Image className="rounded-[20px] h-[15rem] sm:h-auto" src={image1} alt="image1"></Image>
+              <h3 className="text-[#000000] text-[36px] font-[700] relative bottom-[220px] sm:bottom-[260px] left-[30px]">Casual</h3>
             </div>
             <div className="card cursor-pointer">
-              <Image className="rounded-[20px]" src={image2} alt="image2"></Image>
-              <h3 className="text-[#000000] text-[36px] font-[700] relative bottom-[260px] left-[30px]">Formal</h3>
+              <Image className="rounded-[20px] h-[15rem] sm:h-auto" src={image2} alt="image2"></Image>
+              <h3 className="text-[#000000] text-[36px] font-[700] relative bottom-[220px] sm:bottom-[260px] left-[30px]">Formal</h3>
             </div>
           </div>
-          <div className="flex mb-[-30px] gap-6">
+          <div className="flex flex-col sm:flex-row mb-[-30px] gap-0 sm:gap-6">
             <div className="card cursor-pointer">
-            <Image className="rounded-[20px] w-[684] bg-[white]  border-l-white border-l-[50px]" src={image3} alt="image3"></Image>
-            <h3 className="text-[#000000] text-[36px] font-[700] relative bottom-[260px] left-[30px]">Party</h3>
+            <Image className="rounded-[20px] w-[684] bg-[white] h-[15rem] sm:h-auto border-l-white border-l-[50px]" src={image3} alt="image3"></Image>
+            <h3 className="text-[#000000] text-[36px] font-[700] relative bottom-[220px] sm:bottom-[260px] left-[30px]">Party</h3>
             </div>
             <div className="card cursor-pointer">
-            <Image className="rounded-[20px] w-[407px] bg-[white] border-l-white border-l-[50px]" src={image4} alt="image4"></Image>
-            <h3 className="text-[#000000] text-[36px] font-[700] relative bottom-[260px] left-[30px]">Gym</h3>
+            <Image className="rounded-[20px] w-[407px] bg-[white] h-[15rem] sm:h-auto border-l-white border-l-[50px]" src={image4} alt="image4"></Image>
+            <h3 className="text-[#000000] text-[36px] font-[700] relative bottom-[220px] sm:bottom-[260px] left-[30px]">Gym</h3>
             </div>
           </div>
         </div>
@@ -167,10 +167,10 @@ const New_Arival = () => {
         </div>        
       </div>
       <div className="mt-[40px] flex gap-5">
-        <div>
+        <div className="hidden sm:inline-block ">
           <Image className="card h-[240px] w-[400px]  border-r-[1px] border-t-[1px] border-b-[1px] rounded-tr-[20px] rounded-br-[20px]" src={First} alt="first"></Image>
         </div>
-        <div className="card border rounded-[20px] w-[400px] h-[240px]">
+        <div className="card border rounded-[20px] w-[400px] h-[240px] ml-[2.5rem] sm:ml-0 mb-[4rem] sm:mb-0">
           <div className="w-[336px] h-[161.58px] m-[28px]">
             <Image className="mt-[20px] mb-[10px]" src={Phrame} alt="phrame"></Image>
             <div className="flex gap-1">
@@ -181,7 +181,7 @@ const New_Arival = () => {
           </div>
         </div>
       <div>
-        <div className="card border rounded-[20px] w-[400px] h-[240px]">
+        <div className="card border rounded-[20px] w-[400px] h-[240px] hidden sm:inline-block">
           <div className="w-[336px] h-[161.58px] m-[28px]">
             <Image className="mt-[20px] mb-[10px]" src={Phrame} alt="phrame"></Image>
             <div className="flex gap-1">
@@ -193,7 +193,7 @@ const New_Arival = () => {
         </div>
       </div>
       <div>
-        <div className="card border rounded-[20px] w-[400px] h-[240px]">
+        <div className="card border rounded-[20px] w-[400px] h-[240px] hidden sm:inline-block">
           <div className="w-[336px] h-[161.58px] m-[28px]">
             <Image className="mt-[20px] mb-[10px]" src={Phrame} alt="phrame"></Image>
             <div className="flex gap-1">
@@ -204,7 +204,7 @@ const New_Arival = () => {
           </div>
         </div>
       </div>
-      <div className="mb-10">
+      <div className="mb-10 hidden sm:inline-block">
         <Image className="card h-[240px] w-[400px] border-l-[1px] border-t-[1px] border-b-[1px] rounded-tl-[20px] rounded-bl-[20px]" src={Last} alt="last"></Image>
       </div>
       </div>

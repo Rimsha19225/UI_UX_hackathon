@@ -11,41 +11,36 @@ import versace from "../../public/images/versace.png"
 
 export default function Home() {
   return (
-    <div className="relative w-full bg-[#F2F0F1] h-[80vh] mt-[8.6rem]">
-      <div className="w-[90%] 2xl:w-[1500px] mx-auto flex justify-around">
+    <div className="relative w-full bg-[#F2F0F1] h-auto xl:h-[80vh] mt-[8.6rem] overflow-x-hidden">
+      <div className="w-[90%] 2xl:w-[1500px] mx-auto flex flex-col sm:flex-row justify-around">
         <div>
           <div className="mr-20 mb-[35px]">
             <h1 className="integral w-[30rem] font-bold text-[48px] leading-none mt-[5rem]">FIND CLOTHES THAT MATCHES YOUR STYLE</h1>
-            <p className="satoshi w-[25rem] text-[0.72rem] mt-7">Browse through our diverse range of meticulously crafted garments, designed to bring out your individuality and cater to your sense of style.</p>
-            <button className="satoshi card mt-[1.5rem] p-2 rounded-full bg-[#000000] text-[#ffffff] w-36 hover:w-[9.5rem]">Shop Now</button>
-            <div className="font-bold flex gap-12 mt-[2.5rem] w-[28rem]">
+            <p className="satoshi w-[25rem] text-[1rem] sm:text-[0.72rem] mt-7">Browse through our diverse range of meticulously crafted garments, designed to bring out your individuality and cater to your sense of style.</p>
+            <button className="satoshi card mt-[1.5rem] text-[1.5rem] sm:text-[1rem] p-4 sm:p-2 rounded-full bg-[#000000] text-[#ffffff] w-[26.5rem] sm:w-36 hover:w-[9.5rem]">Shop Now</button>
+            <div className="font-bold grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-3 sm:gap-12 mt-[2.5rem] ml-[5rem] sm:ml-0 w-[20rem] sm:w-[28rem]">
               <div className="hover:text-[#565252]">
-                <h2 className="satoshi1 text-[30px] font-semibold cursor-pointer">200+</h2>
-                <p className="satoshi text-[10px]">International Brands</p>
+                <h2 className="satoshi1 text-[40px] sm:text-[30px] font-semibold cursor-pointer">200+</h2>
+                <p className="satoshi text-[13px] sm:text-[10px]">International Brands</p>
               </div>
               <div className="hover:text-[#565252]">
-                <h2 className="satoshi1 text-[30px] font-semibold cursor-pointer">2,000+</h2>
-                <p className="satoshi text-[10px]">High-Quality Products</p>
+                <h2 className="satoshi1 text-[40px] sm:text-[30px] font-semibold cursor-pointer">2,000+</h2>
+                <p className="satoshi text-[13px] sm:text-[10px]">High-Quality Products</p>
               </div>
               <div className="hover:text-[#565252]">
-                <h2 className="satoshi1 text-[30px] font-semibold cursor-pointer">30,000+</h2>
-                <p className="satoshi text-[10px]">Happy Customers</p>
+                <h2 className="satoshi1 text-[40px] sm:text-[30px] font-semibold cursor-pointer">30,000+</h2>
+                <p className="satoshi text-[13px] sm:text-[10px]">Happy Customers</p>
               </div>
             </div>
           </div>
         </div>
-        <div className="flex relative w-[40rem]">
-          <Image src={star_1} alt="hero_section_image" className="shake flex top-60 left-5 absolute w-[3rem]"/>
+        <div className="flex relative w-[36.5rem] sm:w-[40rem] ml-[-5.7rem] sm:mr-0">
+          <Image src={star_1} alt="hero_section_image" className="shake flex top-[12rem] sm:top-60 left-[5.5rem] sm:left-5 absolute w-[3rem]"/>
           <Image src={hero} alt="hero_section_image" className="absolute w-[100%] h-[78.5vh]"/>
-          <Image src={star_2} alt="hero_section_image" className="shake absolute right-5 top-24 w-[6rem]"/>
+          <Image src={star_2} alt="hero_section_image" className="shake absolute right-[5.7rem] sm:right-5 top-[3rem] sm:top-24 w-[6rem]"/>
         </div>
       </div>
-      <div className='bg-[#000000] flex justify-center items-center gap-[8rem] h-[13vh] mt-[4rem]'>
-        {/* <h2 className="logo text-[45px] text-white tracking-tighter">VERSACE</h2>
-        <h2 className="logo text-[45px] text-white tracking-[-0.12em]">ZARA</h2>
-        <h2 className="logo text-[45px] text-white">GUCCI</h2>
-        <h2 className="logo text-[45px] text-white">PARADA</h2>
-        <h2 className="logo text-[45px] text-white tracking-tighter font-thin">Calvin Klein</h2> */}
+      <div className='bg-[#000000] grid grid-cols-3 sm:grid-cols-5 gap-[2rem] justify-center items-center sm:gap-[8rem] h-auto pt-[2rem] sm:pt-[1.7rem] pb-[2rem] sm:pb-[1.7rem] pr-[3rem] sm:pr-[5.5rem] pl-[3rem] sm:pl-[5.5rem] mt-[29rem] sm:mt-[4rem]'>
         <Image src={versace} alt="versace_logo" className='cursor-pointer'/>
         <Image src={zara} alt="zara_logo" className='cursor-pointer'/>
         <Image src={gucci} alt="gucci_logo" className='cursor-pointer'/>
