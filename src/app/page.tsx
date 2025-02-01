@@ -15,9 +15,9 @@ export default function Home() {
       <div className="w-[90%] 2xl:w-[1500px] mx-auto flex flex-col sm:flex-row justify-around">
         <div>
           <div className="mr-20 mb-[35px]">
-            <h1 className="integral w-[100%] md:w-[30rem] font-bold text-[30px] md:text-[48px] leading-none mt-[5rem]">FIND CLOTHES THAT MATCHES YOUR STYLE</h1>
-            <p className="satoshi w-[100%] md:w-[25rem] text-[0.5rem] sm:text-[0.72rem] mt-7">Browse through our diverse range of meticulously crafted garments, designed to bring out your individuality and cater to your sense of style.</p>
-            <button className="satoshi card mt-[1.5rem] text-[1.5rem] sm:text-[1rem] p-2 md:p-4 sm:p-2 rounded-full bg-[#000000] text-[#ffffff] w-[100%] md:w-[10.5rem] sm:w-36 hover:w-[15rem] md:hover:w-[11rem]">Shop Now</button>
+            <h1 className="integral w-[100%] md:w-[30rem] pl-4 md:pl-0 font-bold text-[30px] md:text-[48px] leading-none mt-[5rem]">FIND CLOTHES THAT MATCHES YOUR STYLE</h1>
+            <p className="satoshi w-[100%] md:w-[25rem] pl-4 md:pl-0 text-[0.5rem] sm:text-[0.72rem] mt-7">Browse through our diverse range of meticulously crafted garments, designed to bring out your individuality and cater to your sense of style.</p>
+            <button className="satoshi card mt-[1.5rem] pl-4 md:pl-0 text-[1.5rem] sm:text-[1rem] p-2 md:p-4 sm:p-2 rounded-full bg-[#000000] text-[#ffffff] w-[100%] md:w-[10.5rem] sm:w-36 hover:w-[15rem] md:hover:w-[11rem]">Shop Now</button>
             <div className="font-bold grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-3 sm:gap-12 mt-[2.5rem] ml-[2rem] sm:ml-0 w-[20rem] sm:w-[28rem]">
               <div className="hover:text-[#565252]">
                 <h2 className="satoshi1 text-[40px] sm:text-[30px] font-semibold cursor-pointer">200+</h2>
