@@ -6,10 +6,9 @@ import cart1 from '../../../public/images/shirt22.png'
 import cart2 from '../../../public/images/Frame 34.png'
 import cart3 from '../../../public/images/Frame 33.png'
 import delete_icon from "../../../public/images/delete.png"
-import sub from "../../../public/images/subtract.png"
-import add from "../../../public/images/addition.png"
 import pricetag from "../../../public/images/pricetag.png"
 import arrow from "../../../public/images/rightArrow.png"
+import Button from "@/components/button"
 
 const Cart = () => {
   return (
@@ -38,7 +37,7 @@ const Cart = () => {
                         </div>
                         <div className="ml-[15rem]">
                             <Image src={delete_icon} alt="delete" className="shake ml-[5.5rem]"/>
-                            <div className="ml-[1rem]"><button className="w-[6rem] h-[2rem] bg-[#d5d2d2] whitespace-nowrap flex justify-center items-center gap-3 rounded-2xl mt-[2rem] hover:bg-[#c2bfbf]"><Image src={sub} alt="subtraction" className=""/>  1  <Image src={add} alt="addition"/></button></div>
+                            <div className="ml-[1rem]"><Button /></div>
                         </div>
                     </div>
                     <hr />
@@ -52,7 +51,7 @@ const Cart = () => {
                         </div>
                         <div className="ml-[15rem]">
                             <Image src={delete_icon} alt="delete" className="shake ml-[5.5rem]"/>
-                            <div className="ml-[1rem]"><button className="w-[6rem] h-[2rem] bg-[#d5d2d2] whitespace-nowrap flex justify-center items-center gap-3 rounded-2xl mt-[2rem] hover:bg-[#c2bfbf]"><Image src={sub} alt="subtraction" className=""/>  1  <Image src={add} alt="addition"/></button></div>
+                            <div className="ml-[1rem]"><Button /></div>
                         </div>
                     </div>
                     <hr />
@@ -66,7 +65,7 @@ const Cart = () => {
                         </div>
                         <div className="ml-[15rem]">
                             <Image src={delete_icon} alt="delete" className="shake ml-[5.5rem]"/>
-                            <div className="ml-[1rem]"><button className="w-[6rem] h-[2rem] bg-[#d5d2d2] whitespace-nowrap flex justify-center items-center gap-3 rounded-2xl mt-[2rem] hover:bg-[#c2bfbf]"><Image src={sub} alt="subtraction" className=""/> 1 <Image src={add} alt="addition"/></button></div>
+                            <div className="ml-[1rem]"><Button /></div>
                         </div>
                     </div>
                 </div>

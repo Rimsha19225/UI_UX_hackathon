@@ -15,10 +15,10 @@ export default function Home() {
       <div className="w-[90%] 2xl:w-[1500px] mx-auto flex flex-col sm:flex-row justify-around">
         <div>
           <div className="mr-20 mb-[35px]">
-            <h1 className="integral w-[30rem] font-bold text-[48px] leading-none mt-[5rem]">FIND CLOTHES THAT MATCHES YOUR STYLE</h1>
-            <p className="satoshi w-[25rem] text-[1rem] sm:text-[0.72rem] mt-7">Browse through our diverse range of meticulously crafted garments, designed to bring out your individuality and cater to your sense of style.</p>
-            <button className="satoshi card mt-[1.5rem] text-[1.5rem] sm:text-[1rem] p-4 sm:p-2 rounded-full bg-[#000000] text-[#ffffff] w-[26.5rem] sm:w-36 hover:w-[9.5rem]">Shop Now</button>
-            <div className="font-bold grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-3 sm:gap-12 mt-[2.5rem] ml-[5rem] sm:ml-0 w-[20rem] sm:w-[28rem]">
+            <h1 className="integral w-[100%] md:w-[30rem] font-bold text-[30px] md:text-[48px] leading-none mt-[5rem]">FIND CLOTHES THAT MATCHES YOUR STYLE</h1>
+            <p className="satoshi w-[100%] md:w-[25rem] text-[0.5rem] sm:text-[0.72rem] mt-7">Browse through our diverse range of meticulously crafted garments, designed to bring out your individuality and cater to your sense of style.</p>
+            <button className="satoshi card mt-[1.5rem] text-[1.5rem] sm:text-[1rem] p-2 md:p-4 sm:p-2 rounded-full bg-[#000000] text-[#ffffff] w-[100%] md:w-[26.5rem] sm:w-36 hover:w-[12.5rem] md:hover:w-[9.5rem]">Shop Now</button>
+            <div className="font-bold grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-3 sm:gap-12 mt-[2.5rem] ml-[2rem] sm:ml-0 w-[20rem] sm:w-[28rem]">
               <div className="hover:text-[#565252]">
                 <h2 className="satoshi1 text-[40px] sm:text-[30px] font-semibold cursor-pointer">200+</h2>
                 <p className="satoshi text-[13px] sm:text-[10px]">International Brands</p>
@@ -34,7 +34,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="flex relative w-[36.5rem] sm:w-[40rem] ml-[-5.7rem] sm:mr-0">
+        <div className="flex relative w-[33.5rem] sm:w-[40rem] ml-[-5.7rem] sm:mr-0">
           <Image src={star_1} alt="hero_section_image" className="shake flex top-[12rem] sm:top-60 left-[5.5rem] sm:left-5 absolute w-[3rem]"/>
           <Image src={hero} alt="hero_section_image" className="absolute w-[100%] h-[78.5vh]"/>
           <Image src={star_2} alt="hero_section_image" className="shake absolute right-[5.7rem] sm:right-5 top-[3rem] sm:top-24 w-[6rem]"/>
