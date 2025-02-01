@@ -40,7 +40,7 @@ export default function Home() {
           <Image src={star_2} alt="hero_section_image" className="shake absolute right-[5.7rem] sm:right-5 top-[3rem] sm:top-24 w-[6rem]"/>
         </div>
       </div>
-      <div className='bg-[#000000] grid grid-cols-3 sm:grid-cols-5 gap-[2rem] justify-center items-center sm:gap-[8rem] h-auto pt-[2rem] sm:pt-[1.7rem] pb-[2rem] sm:pb-[1.7rem] pr-[3rem] sm:pr-[5.5rem] pl-[3rem] sm:pl-[5.5rem] mt-[29rem] sm:mt-[4rem]'>
+      <div className='bg-[#000000] grid grid-cols-3 sm:grid-cols-5 gap-[2rem] justify-center items-center sm:gap-[8rem] h-auto pt-[2rem] sm:pt-[1.7rem] pb-[2rem] sm:pb-[1.7rem] pr-[3rem] sm:pr-[5.5rem] pl-[3rem] sm:pl-[5.5rem] mt-[35rem] sm:mt-[4rem]'>
         <Image src={versace} alt="versace_logo" className='cursor-pointer'/>
         <Image src={zara} alt="zara_logo" className='cursor-pointer'/>
         <Image src={gucci} alt="gucci_logo" className='cursor-pointer'/>
