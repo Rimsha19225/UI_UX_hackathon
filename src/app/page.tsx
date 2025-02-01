@@ -36,7 +36,7 @@ export default function Home() {
         </div>
         <div className="flex relative w-[33.5rem] sm:w-[40rem] ml-[-5.7rem] sm:mr-0">
           <Image src={star_1} alt="hero_section_image" className="shake flex top-[12rem] sm:top-60 left-[5.5rem] sm:left-5 absolute w-[3rem]"/>
-          <Image src={hero} alt="hero_section_image" className="absolute w-[100%] h-[78.5vh]"/>
+          <Image src={hero} alt="hero_section_image" className="absolute w-[100%] h-[78.5vh] mt-[-1rem] md:mt-[1rem]"/>
           <Image src={star_2} alt="hero_section_image" className="shake absolute right-[5.7rem] sm:right-5 top-[3rem] sm:top-24 w-[6rem]"/>
         </div>
       </div>
